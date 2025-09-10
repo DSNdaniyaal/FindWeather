@@ -10,7 +10,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.get('/',function(req,res){
     res.sendFile(__dirname + "/index.html");
 });
-console.log("dirname is:", __dirname);
+console.log("dirname is :", __dirname);
 
 
 app.post('/',function(req,res){
